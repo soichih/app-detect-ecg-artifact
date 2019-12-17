@@ -4,6 +4,9 @@
 #PBS -l walltime=00:30:00
 #PBS -N detect-ecg-artifacts
 
+set -e
+set -x
+
 time singularity exec -e docker://brainlife/mne:0.19.2 ./detect.py
 
 #create product.json
