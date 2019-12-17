@@ -1,0 +1,6 @@
+{
+    "fif": "testdata/meg.fif",
+    "channels": "testdata/channels.tsv",
+    "events": "testdata/events.tsv",
+    "ch_name": "MEG0111"
+}
