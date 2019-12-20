@@ -2,5 +2,5 @@
     "fif": "testdata/meg.fif",
     "channels": "testdata/channels.tsv",
     "events": "testdata/events.tsv",
-    "ch_type": "meg"
+    "ch_type": "eeg"
 }
